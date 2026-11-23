@@ -36,11 +36,11 @@ El sitio estará compuesto por cinco páginas principales, todas conectadas medi
 
 | Página | Contenido | Responsable |
 | --- | --- | --- |
-| Inicio (index.html) | Presentación de la carpintería, propuesta de valor, productos destacados y accesos rápidos a las demás secciones. | Nombre |
-| Productos (productos.html) | Catálogo de todos los productos disponibles. | Nombre |
-| Servicios (servicios.html) | Sección para explicar los trabajos y servicios ofrecidos por la carpintería. | Nombre |
-| Nosotros (nosotros.html) | Quiénes somos, experiencia, valores y forma de trabajo. | Nombre |
-| Contacto (contacto.html) | Formulario para solicitar consultas y proporcionar datos de contacto. | Nombre |
+| Inicio (index.html) | Presentación de la carpintería, propuesta de valor, productos destacados y accesos rápidos a las demás secciones. | Erick Londoño |
+| Productos (productos.html) | Catálogo de todos los productos disponibles. | Erick Londoño |
+| Servicios (servicios.html) | Sección para explicar los trabajos y servicios ofrecidos por la carpintería. | Cristian Jiménez |
+| Nosotros (nosotros.html) | Quiénes somos, experiencia, valores y forma de trabajo. | Dilan Vasquez |
+| Contacto (contacto.html) | Formulario para solicitar consultas y proporcionar datos de contacto. | Cristian Jiménez |
 
 ## Navegación del sitio
 
