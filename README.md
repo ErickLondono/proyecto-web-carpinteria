@@ -42,6 +42,47 @@ El sitio estará compuesto por cinco páginas principales, todas conectadas medi
 | Nosotros (nosotros.html) | Quiénes somos, experiencia, valores y forma de trabajo. | Dilan Vasquez |
 | Contacto (contacto.html) | Formulario para solicitar consultas y proporcionar datos de contacto. | Cristian Jiménez |
 
+## 📋 Lista de pendientes
+
+### 1. Estructura y organización
+- [x] Crear las cinco páginas HTML.
+- [x] Asignar responsables.
+- [x] Crear el archivo `kit.css`.
+- [x] Verificar los enlaces del menú.
+- [x] Unificar el header y footer.
+- [ ] Verificar los recursos de las carpetas `css/` e `img/`.
+
+### 2. Diseño y estilos CSS
+- [x] Definir colores y tipografías.
+- [x] Crear estilos globales y botones.
+- [ ] Crear estilos para tarjetas.
+- [x] Completar los componentes del kit CSS.
+- [ ] Implementar diseño responsive.
+- [ ] Verificar visualización a 360 px.
+
+### 3. Desarrollo de páginas
+
+**Erick Londoño**
+- [ ] Desarrollar Inicio.
+- [ ] Desarrollar catálogo de Productos.
+
+**Cristian Jiménez**
+- [ ] Desarrollar Servicios y sus tarjetas.
+- [ ] Crear formulario de Contacto.
+- [ ] Incorporar información e imágenes correspondientes.
+
+**Dilan Vásquez**
+- [ ] Desarrollar Nosotros.
+- [ ] Incorporar historia, valores e información del emprendimiento.
+
+### 4. Revisión y publicación
+- [ ] Terminar al menos dos páginas con contenido real.
+- [ ] Agregar atributos `alt` a las imágenes.
+- [ ] Verificar responsive a 360 px.
+- [ ] Comprobar imágenes, enlaces y funcionamiento.
+- [x] Publicar y verificar GitHub Pages.
+- [ ] Cada integrante debe tener al menos un commit propio.
+
 ## Navegación del sitio
 
 Todas las páginas tendrán una navegación común que permitirá desplazarse fácilmente entre las diferentes secciones:
