@@ -1,0 +1,5 @@
+form{
+  background-color: var(--color-surface);
+  padding: var(--spacing-md);
+  margin: var(--spacing-md);
+}
