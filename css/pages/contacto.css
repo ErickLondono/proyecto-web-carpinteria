@@ -38,7 +38,7 @@
 h1 {
   text-align: center;
   padding: var(--spacing-md);
-  margin: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
 }
 
 fieldset{
