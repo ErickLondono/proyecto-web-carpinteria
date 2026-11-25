@@ -39,6 +39,9 @@
         </div>
     </header>
     <main class="main">
+
+      <h1>Formulario de contacto - UMAR WOODS</h1>
+      
       <form class="formNegocio" id="formNegocio">
         
         <fieldset>
@@ -107,13 +110,13 @@
           </div>
 
           <div class="campo">
-            <p>Dimensiones aproximadas (en centímetros)</p>
+            <label>Dimensiones aproximadas (en centímetros)</label>
         
             <div class="dimensiones">
 
               <div>
                   <label for="ancho">Ancho (cm)</label>
-                  <input type="number">
+                  <input type="number" id="ancho">
               </div>
       
               <div>
@@ -144,6 +147,7 @@
           </div>
 
           <div class="campo">
+            <label for="presupuesto">¿Cuál es tu presupuesto inicial?</label>
             <select id="presupuesto" name="presupuesto">
               <option value="" disabled selected>Selecciona tu presupuesto</option>          
               <option value="menos-500">Menos de $500.000</option>          
@@ -158,7 +162,7 @@
 
           <div class="campo">
             <label for="fecha">Fecha aprox. de realización</label>
-            <input type="date">
+            <input type="date" id="fecha">
           </div>
 
           <div class="campo">
@@ -172,7 +176,21 @@
 
         </fieldset>
 
-        <button class="boton" type="sumbit">Enviar consulta</button>
+        <fieldset class="grupo"> 
+            
+            <legend>Autorización de datos</legend>
+            
+            <p>Autorizo el tratamiento de mis datos personales
+              para los fines relacionados con mi inscripción
+              y los procesos de formación.</p>
+
+            <label class="autorizacion">
+              <input type="checkbox" id="autorizacion" class="btn" name="terminos" value="acepto" required>Acepto el tratamientio de mis datos personales
+            </label>
+            
+        </fieldset>
+
+        <button class="btn" type="sumbit">Enviar consulta</button>
         
       </form>
       
