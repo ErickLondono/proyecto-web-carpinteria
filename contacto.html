@@ -50,22 +50,22 @@
 
             <div class= "campo">
               <label for="nombre">Nombre Completo</label>
-              <input id="nombre" type="text">
+              <input id="nombre" type="text" placeholder="Ej. Juan Pérez" required minlength="3" >
             </div>
 
             <div class="campo">
               <label for="email">Correo electrónico</label>
-              <input id="email" type="email">
+              <input id="email" type="email" placeholder="ejemplo@correo.com" required>
             </div>
 
             <div class="campo">
               <label for="telefono">Número de teléfono</label>
-              <input id="telefono" type="tel">
+              <input id="telefono" type="tel" placeholder="3001234567" required pattern="3[0-9]{9}" title="Debe comenzar en 3 y exactamente 10 dígitos ">
             </div>
             
             <div class="campo">
               <label for="medio">¿Cómo prefieres que te contactemos?</label>
-              <select name="medio" id="medio">
+              <select name="medio" id="medio" required>
                 <option value="">Seleccione una opción</option>
                 <option value="whatsapp">WhatsApp</option>
                 <option value="llamada">Llamada telefónica</option>
@@ -81,7 +81,7 @@
 
           <div class="campo">
             <label for="motivo">¿Qué necesitas?</label>
-            <select name="motivo" id="motivo">
+            <select name="motivo" id="motivo" required>
               <option value="">Selecciona un motivo</option>
               <option value="cotizacion">Solicitar una cotización.</option>
               <option value="diseño">Diseño de muebles personalizados.</option>
@@ -95,7 +95,7 @@
 
           <div class= campo>
             <label for="servicio">¿Qué producto o servicio te intersa?</label>
-            <input id="servicio" type="text">
+            <input id="servicio" type="text" placeholder="Ej. Escritorio de mesa personalizado" required>
           </div>
           
         </fieldset>
@@ -106,7 +106,7 @@
 
           <div class="campo">
             <label for="descripcion">Descripción del proyecto</label>
-            <textarea name="descripcion" id="descripcion" rows="5"></textarea>
+            <textarea name="descripcion" id="descripcion" placeholder="Cuentanos que mueble deseas, como te gustaría que fuera y que características debería tener..." rows="5" required></textarea>
           </div>
 
           <div class="campo">
@@ -116,17 +116,17 @@
 
               <div>
                   <label for="ancho">Ancho (cm)</label>
-                  <input type="number" id="ancho">
+                  <input type="number" id="ancho" placeholder="Ej. 120" required pattern="[0-9]{1,3}">
               </div>
       
               <div>
                   <label for="alto">Alto (cm)</label>
-                  <input type="number" id="alto">
+                  <input type="number" id="alto" placeholder="Ej. 120" required pattern="[0-9]{1,3}">
               </div>
       
               <div>
                   <label for="fondo">Fondo (cm)</label>
-                  <input type="number" id="fondo">
+                  <input type="number" id="fondo" placeholder="Ej.120" required pattern="[0-9]{1,3}">
               </div>
 
             </div>
@@ -134,7 +134,7 @@
 
           <div class="campo">
             <label for="material">Material de preferencia</label>
-            <select id="material" name="material">
+            <select id="material" name="material" required>
               <option value="" disabled selected>Selecciona un material </option>
               <option value="pino">Madera de pino</option>
               <option value="roble">Madera de roble</option>
@@ -148,7 +148,7 @@
 
           <div class="campo">
             <label for="presupuesto">¿Cuál es tu presupuesto inicial?</label>
-            <select id="presupuesto" name="presupuesto">
+            <select id="presupuesto" name="presupuesto" required>
               <option value="" disabled selected>Selecciona tu presupuesto</option>          
               <option value="menos-500">Menos de $500.000</option>          
               <option value="500-1000">$500.000 - $1.000.000</option>          
@@ -162,7 +162,7 @@
 
           <div class="campo">
             <label for="fecha">Fecha aprox. de realización</label>
-            <input type="date" id="fecha">
+            <input type="date" id="fecha" name="fecha" placeholder="dd/mm/aaaa">
           </div>
 
           <div class="campo">

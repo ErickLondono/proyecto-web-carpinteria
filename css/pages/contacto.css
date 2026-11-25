@@ -91,6 +91,32 @@ input[type="checkbox"] {
   accent-color: var(--color-accent)
 }
 
+input::placeholder, textarea::placeholder{
+  color: var(--color-text);
+  padding: var(--spacing-xs);
+}
+
+textarea{
+  padding: var(--spacing-sm);
+}
+
+input:focus-visible, select:focus-visible {
+  outline: 2px solid var(--color-forest);
+  outline-offset: 2px;
+}
+
+input:user-invalid, select:user-invalid,
+.invalido{
+  background-color: var(--color-error);
+}
+
+.error {
+  display: block;
+  min-height: 1.2em;
+  color: var(--color-error);
+  font-size: 0.85rem;
+}
+
 .dimensiones{
   display: flex;
   gap: var(--spacing-md);
