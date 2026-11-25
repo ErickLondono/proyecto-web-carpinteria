@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -43,18 +43,145 @@
         
         <fieldset>
           
-          <legend>Datos personales</legend>
-          
+          <legend>Datos de contacto</legend>
+
+            <div class= "campo">
+              <label for="nombre">Nombre Completo</label>
+              <input id="nombre" type="text">
+            </div>
+
+            <div class="campo">
+              <label for="email">Correo electrónico</label>
+              <input id="email" type="email">
+            </div>
+
+            <div class="campo">
+              <label for="telefono">Número de teléfono</label>
+              <input id="telefono" type="tel">
+            </div>
             
-          
+            <div class="campo">
+              <label for="medio">¿Cómo prefieres que te contactemos?</label>
+              <select name="medio" id="medio">
+                <option value="">Seleccione una opción</option>
+                <option value="whatsapp">WhatsApp</option>
+                <option value="llamada">Llamada telefónica</option>
+                <option value="correo">Correo electrónico</option>
+              </select>
+            </div>
           
         </fieldset>
+
+        <fieldset>
+
+          <legend>Motivo de la consulta</legend>
+
+          <div class="campo">
+            <label for="motivo">¿Qué necesitas?</label>
+            <select name="motivo" id="motivo">
+              <option value="">Selecciona un motivo</option>
+              <option value="cotizacion">Solicitar una cotización.</option>
+              <option value="diseño">Diseño de muebles personalizados.</option>
+              <option value="fabricacion">Fabricación de muebles.</option>
+              <option value="asesoria">Asesoría sobre materiales y acabados.</option>
+              <option value="productos">Consultar productos disponibles.</option>
+              <option value="tiempo">Consultar tiempos de entrega.</option>
+              <option value="otro">Otro tipo de consulta.</option>
+            </select>
+          </div>
+
+          <div class= campo>
+            <label for="servicio">¿Qué producto o servicio te intersa?</label>
+            <input id="servicio" type="text">
+          </div>
+          
+        </fieldset>
+
+        <fieldset>
+
+          <legend>Detalles de tu proyecto</legend>
+
+          <div class="campo">
+            <label for="descripcion">Descripción del proyecto</label>
+            <textarea name="descripcion" id="descripcion" rows="5"></textarea>
+          </div>
+
+          <div class="campo">
+            <p>Dimensiones aproximadas (en centímetros)</p>
+        
+            <div class="dimensiones">
+
+              <div>
+                  <label for="ancho">Ancho (cm)</label>
+                  <input type="number">
+              </div>
+      
+              <div>
+                  <label for="alto">Alto (cm)</label>
+                  <input type="number" id="alto">
+              </div>
+      
+              <div>
+                  <label for="fondo">Fondo (cm)</label>
+                  <input type="number" id="fondo">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="campo">
+            <label for="material">Material de preferencia</label>
+            <select id="material" name="material">
+              <option value="" disabled selected>Selecciona un material </option>
+              <option value="pino">Madera de pino</option>
+              <option value="roble">Madera de roble</option>
+              <option value="cedro">Madera de cedro</option>
+              <option value="nogal">Madera de nogal</option>
+              <option value="melamina">Melamina</option>
+              <option value="otro">Otro material</option>
+              <option value="sin-preferencia">No tengo preferencia</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <select id="presupuesto" name="presupuesto">
+              <option value="" disabled selected>Selecciona tu presupuesto</option>          
+              <option value="menos-500">Menos de $500.000</option>          
+              <option value="500-1000">$500.000 - $1.000.000</option>          
+              <option value="1000-2000">$1.000.000 - $2.000.000</option>          
+              <option value="2000-3500">$2.000.000 - $3.500.000</option>          
+              <option value="mas-3500">Más de $3.500.000</option>         
+              <option value="por-definir">Aún no tengo un presupuesto definido</option>
+            </select>
+            
+          </div>
+
+          <div class="campo">
+            <label for="fecha">Fecha aprox. de realización</label>
+            <input type="date">
+          </div>
+
+          <div class="campo">
+            <label for="img">Imagen de referencia (opcional)</label>
+            <input type="file" id="img" name="img" accept="image/*">
+
+
+          <small>Puedes adjuntar una imagen de referencia</small>
+            
+          </div>
+
+        </fieldset>
+
+        <button class="boton" type="sumbit">Enviar consulta</button>
         
       </form>
+      
     </main>
+  
     <footer class="footer">
         <p>© 2026 - Todos los derechos reservados</p>
     </footer>
+  
 </body>
 
 </html>
